@@ -4,10 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motor Yachts | Hatteras Yachts</title>
-
-
-    <script src="js/vendor/angular.js"></script>
+    <title>Shoes By Rihanna</title>
 
 
 
@@ -35,6 +32,40 @@
   </head>
   <body>
 
+    <!-- *Begin Nav -->
+<div data-sticky-container>
+<div class="sticky" data-sticky data-margin-top="0">
+ <nav class="top-bar topbar-responsive">
+   <div class="top-bar-title">
+     <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+       <button class="menu-icon" type="button" data-toggle></button>
+     </span>
+     <a class="topbar-responsive-logo" href="#"><strong>Shoes By Rihanna</strong></a>
+   </div>
+   <div id="topbar-responsive" class="topbar-responsive-links">
+     <div class="top-bar-right">
+       <ul class="menu simple vertical medium-horizontal">
+         <li><a href="#">Home</a></li>
+         <li><a href="about/index.html">About</a></li>
+         <li><a href="services/index.html">Services</a></li>
+         <li><a href="works/index.html">Works</a></li>
+         <li><a href="news/index.html">News</a></li>
+         <li><a href="contact/index.html">Contact</a></li>
+         <li>
+
+           <button type="button" class="button hollow topbar-responsive-button">
+             <a href=>Other</a>
+           </button>
+         </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
+</div>
+</div>
+
+ <!-- *End Nav -->
+
 
 <!-- *Begin nav --><!-- *Begin Exprimental Area -->
     <!-- *Begin Social Icons -->
@@ -54,6 +85,22 @@
 <i class="fas fa-stroopwafel"></i> <!-- using an <i> element to reference the icon -->
 <span class="fas fa-stroopwafel"></span> <!-- using a <span> element to reference the icon -->
     <!-- *End Social Icons -->
+
+
+    <script src="js/vendor/angular.js"></script>
+
+    <div>
+      search: <input type="text" ng-model='searchText' />
+      {{ searchText }}
+      <br />
+      <h3>Customers:</h3>
+      <table>
+       <tr>
+         <td></td>
+         <td></td>
+       </tr>
+     </table>
+    <div>
 
 <!-- *Begin Product Card Equalizer  - In this sectoin we wil use a product card from the building blocks insde of the equalizer code from the kitchen sink.
 https://foundation.zurb.com/sites/docs/kitchen-sink.html#accordion -->
@@ -165,12 +212,84 @@ https://foundation.zurb.com/sites/docs/kitchen-sink.html#accordion -->
 
 
 <!-- *Begin nav -->
-<!-- *End nav -->
 
 
 
+<!-- *Begin Footer -->
+    <footer class="marketing-site-footer">
+    <div class="grid-x grid-padding-x">
+        <div class="medium-4 cell">
+          <h4 class="marketing-site-footer-name">Other</h4>
+          <p>Building and maintaining websites.</p>
+          <ul class="menu marketing-site-footer-menu-social simple">
+            <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+             <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+             <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+             <li><a href="#"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+             <li><a href="#"><i class="fa fa-tumblr-square" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div class="medium-4 cell">
+           <h4 class="marketing-site-footer-title">Contact Info</h4>
+          <div class="marketing-site-footer-block">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <p>Queensborough Community College<br>Bayside, NY 11364</p>
+          </div>
+          <div class="marketing-site-footer-block">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>110.100.0001</p>
+          </div>
+          <div class="marketing-site-footer-block">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <p>fakemail@fake.com</p>
+          </div>
+        </div>
+        <div class="large-4 cell">
+          <h4 class="marketing-site-footer-title">Photos</h4>
+            <div class="grid-x grid-padding-y">
+	    	<div class="large-4 medium-6 small-12 cell">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+	    	<div class="large-4 medium-6 small-12 cell">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+	    	<div class="large-4 medium-6 small-12 cell">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+	    	<div class="large-4 medium-6 small-12 cell">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+	    	<div class="large-4 medium-6 small-12 cell">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+	    	<div class="large-4 medium-6 small-12 cell">
+              <img src="https://placehold.it/75" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
 
-<!-- *Begin nav -->
+
+      <div class="marketing-site-footer-bottom">
+        <div class="row large-unstack align-middle">
+          <div class="column">
+            <p>&copy; 2018 All rights reserved</p>
+          </div>
+          <div class="column">
+            <ul class="menu marketing-site-footer-bottom-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- *End Footer -->
+
 <!-- *End nav -->
 
 
